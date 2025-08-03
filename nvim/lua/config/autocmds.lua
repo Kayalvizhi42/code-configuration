@@ -1,0 +1,12 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+--
+-- Add any additional autocmds here
+-- with `vim.api.nvim_create_autocmd`
+--
+-- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
+-- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+--
+vim.api.nvim_set_hl(0, "Cursor", { bg = "#FF0000", fg = "#ffffff" }) -- Red for normal
+vim.api.nvim_set_hl(0, "CursorInsert", { bg = "#00FF00", fg = "#000000" }) -- Green for insert
+vim.api.nvim_set_hl(0, "CursorReplace", { bg = "#0000FF", fg = "#ffffff" }) -- Blue for replace
